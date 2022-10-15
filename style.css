@@ -178,7 +178,7 @@ color: var(--primary-color);
 }
 
 .profile {
-margin-top: 150px;
+margin-top: 80px;
 color: var(--secondary-color);
 }
 .profile p {
@@ -189,7 +189,7 @@ color: var(--secondary-color);
 .top-wrapper {
     padding: 80px 20px;
 }
-h1 {
+.project-description h3, h1 {
     font-size: 54px;
     line-height: 1,5;
 }
