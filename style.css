@@ -3,6 +3,8 @@
     --secondary-color: rgba(10, 37, 44, 0.932);
     --transform: all 200mm ease-in-out;
     --link-bg-color: rgba(255, 255, 255, 0.082);
+    --heading-font-family: 'Playfair Display';
+    --default-font-family: 'Poppins';
 }
 body {
 background: rgb(255, 255, 255);
@@ -23,26 +25,26 @@ Height: 980px;
 h1 {
 font-size: 96px;
 margin-bottom: 20px;
-font-family: 'Playfair Display';
+font-family: var(--heading-font-family);
 font-weight: 600;
 
 }
 
 h2 {
-font-family: 'Poppins';
+font-family: var(--default-font-family);
 font-weight: 700;
 font-size: 36px;
 margin-top: 100px;
 }
 
 h3 {
-font-family: 'Poppins';
+font-family: var(--default-font-family);
 font-weight: 300;
 font-size: 26px;
 }
 
 h4 {
-font-family: 'Poppins';
+font-family: var(--default-font-family);
 color: var(--secondary-color);
 font-weight: 600;
 font-size: 26px;      
@@ -59,7 +61,7 @@ border-radius: 10px;
 background-color: var(--link-bg-color);
 padding: 18px 50px;   
 font-size: 20px;
-font-family: 'poppins';
+font-family: var(--default-font-family);
 color: rgb(253, 138, 207);
 margin: 1px;
 text-decoration: none;
@@ -72,7 +74,7 @@ color: rgb(253, 138, 207);
 }
 
 #projects {
-font-family: 'Poppins';
+font-family: var(--default-font-family);
 font-weight: 300;
 font-size: 24px;
 color: var(--primary-color);
@@ -95,7 +97,7 @@ width: 500px;
 
 .weather-app {
 color: var(--primary-color);
-font-family: 'Playfair Display';
+font-family: var(--heading-font-family);
 font-weight: 600;
 font-size: 64px;
 }
@@ -107,7 +109,7 @@ margin-bottom: 100px;
 p {
 padding: 20px 0px;
 color: var(--primary-color);
-font-family: 'Poppins';
+font-family: var(--default-font-family);
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -140,7 +142,7 @@ padding: 10px 0px 0px 80px;
 
 #work-inquiry {
 color: var(--primary-color);
-font-family: 'Playfair Display';
+font-family: var(--heading-font-family);
 font-weight: 600;
 font-size: 48px;
 }
@@ -175,7 +177,7 @@ color: var(--secondary-color);
     
 nav {
 background: var(--secondary-color);
-font-family: 'poppins';
+font-family: var(--default-font-family);
 font-size: 18px;
 }
 
