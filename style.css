@@ -127,10 +127,6 @@ color: var(--primary-color);
 padding: 26px 36px;
 }
 
-footer {
-margin: 100px 0px;
-}
-
 .contact-section {
 display: flex;
 justify-content: space-between;
@@ -222,6 +218,8 @@ justify-content: center ;
 .get-started, img {
 display: none;
 }
-
+.social {
+    display: inline;
+}
 }
 
