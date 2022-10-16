@@ -15,7 +15,7 @@ max-width: 3000px;
 background: linear-gradient(180deg, rgba(10, 37, 44, 0.932) 75%, rgba(5, 20, 26, 0.938) 100%);
 background-repeat: no-repeat;
 height: fit-content;
-padding: 220px 4px; 
+padding: 248px 4px; 
 text-align: center;
 margin-bottom: 80px;
 color: var(--primary-color);
@@ -150,12 +150,6 @@ text-decoration: none;
 
 .icon-link:hover {
 color: var(--primary-color);
-}
-
-#email {
-margin: 0px 0px 40px 0px;
-font-size: 20px;
-color: var(--secondary-color);
 }
     
 nav {
