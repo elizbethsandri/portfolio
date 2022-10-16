@@ -195,7 +195,7 @@ font-family: var(--default-font-family);
 color: var(--secondary-color);
 font-size: 14px;
 margin: 0;
-
+}
 @media (max-width: 900px) {
 .top-wrapper {
     padding: 80px 20px;
@@ -224,8 +224,4 @@ display: none;
 .contact-section img {
     display: inline;
 }
-.social {
-    display: inline;
 }
-}
-
