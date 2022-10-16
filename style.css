@@ -137,8 +137,13 @@ text-align: center;
 justify-content: center;
 }
 
+.icon-contact-page {
+font-size: 44px;
+color: var(--secondary-color);
+}
+
 .icon {
-font-size: 40px;
+font-size: 30px;
 color: var(--secondary-color);
 }
 
@@ -158,6 +163,7 @@ padding: 6px 0px;
 font-size: 16px;
 padding-bottom: 6px;
 margin: 0;
+justify-content: space-between;
 }
 
 .logo {
@@ -169,7 +175,7 @@ color: #ffff;
 nav a {
 text-decoration: none;
 color: #ffff;
-padding-left: 20px;
+padding-left: 50px;
 transition: var(--transform);
 }
 
@@ -203,7 +209,6 @@ line-height: 1.5;
 font-family: var(--default-font-family);
 }
 
-.email,
 .content p {
 color: var(--secondary-color);
 font-size: 20px;
@@ -211,6 +216,9 @@ margin: 0;
 }
 
 @media (max-width: 900px) {
+nav a {
+padding-left: 20px;
+}
 .top-wrapper {
     padding: 80px 20px;
 }
