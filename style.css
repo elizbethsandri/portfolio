@@ -153,18 +153,36 @@ color: var(--primary-color);
 }
     
 nav {
-background: var(--secondary-color);
-font-family: var(--default-font-family);
-font-size: 18px;
+background: rgba(10, 37, 44);
+padding: 6px 0px;
+font-size: 16px;
+padding-bottom: 6px;
+margin: 0;
 }
 
-#white,
-.nav-link {
-color: white;
+.logo {
+font-family: var(--default-font-family);
+font-weight: 700;
+color: #ffff;
 }
-#white:hover,
-.nav-link:hover {
+
+nav a {
+text-decoration: none;
+color: #ffff;
+padding-left: 20px;
+transition: var(--transform);
+}
+
+nav li {
+display: inline;
+list-style: none;
+font-family: var(--default-font-family);
+}
+
+nav a:hover, 
+nav li.active a {
 color: var(--primary-color);
+font-weight: 600;
 }
 
 .content-container {
