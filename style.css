@@ -79,10 +79,6 @@ border-radius: 10px;
 text-transform: var(--transform);
 }
 
-img:hover {
-width: 520px;
-}
-
 .project-description {
 padding: 10px 10px;
 }
@@ -177,13 +173,28 @@ color: white;
 color: var(--primary-color);
 }
 
-.profile {
+.content-container {
 margin-top: 80px;
 color: var(--secondary-color);
+padding: 60px 20px;
 }
-.profile p {
+
+.content h1 {
+font-size: 64px;
+line-height: 80px;
+}
+
+.content h3 {
+font-size: 24px;
+font-weight: 600;
+line-height: 1.5;
+font-family: var(--default-font-family);
+}
+
+.content p {
 color: var(--secondary-color);
-}
+font-size: 14px;
+margin: 0;
 
 @media (max-width: 900px) {
 .top-wrapper {
@@ -207,8 +218,11 @@ h3 {
 display: flex;
 justify-content: center ;
 }
-.get-started, img {
+.get-started, app-img {
 display: none;
+}
+.contact-section img {
+    display: inline;
 }
 .social {
     display: inline;
