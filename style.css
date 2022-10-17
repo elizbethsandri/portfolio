@@ -222,7 +222,7 @@ margin: 0;
 
 @media (max-width: 900px) {
 nav a {
-padding-left: 20px;
+padding-left: 8px;
 }
 .top-wrapper {
     padding: 80px 20px;
