@@ -137,30 +137,36 @@ text-align: center;
 justify-content: center;
 }
 
-.icon-contact-page {
-font-size: 44px;
-color: var(--secondary-color);
-}
-
 .icon {
 font-size: 30px;
 color: var(--secondary-color);
+}
+
+.icon:hover {
+background: rgba(201, 107, 163, 0.452);  
+border: rgba(201, 107, 163, 0.452);
+border-radius: 50%;  
+}
+
+.icon-link {
+font-size: 16px;
+color: var(--secondary-color);
+text-decoration: none;    
 }
 
 #email {
 color: var(--secondary-color);
 }
 
-.icon-link {
-font-size: 17px;
-color: var(--secondary-color);
-text-decoration: none;    
-}
-
 #email:hover,
 .icon-link:hover {
 color: var(--primary-color);
 }
+
+.icon-contact-page {
+font-size: 44px;
+color: var(--secondary-color);
+}    
     
 nav {
 background: rgba(10, 37, 44);
