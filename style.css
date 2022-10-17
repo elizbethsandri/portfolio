@@ -1,6 +1,7 @@
 :root {
-    --primary-color: rgb(201, 107, 163, 0.9);
+    --primary-color: rgba(206, 122, 172);
     --secondary-color: rgba(10, 37, 44, 0.932);
+    --third-color: rgba(247, 149, 208, 0.795);
     --transform: all 200mm ease-in-out;
     --link-bg-color: rgba(255, 255, 255, 0.082);
     --heading-font-family: 'Playfair Display';
@@ -9,6 +10,7 @@
 
 body {
 max-width: 3000px;
+background-color: rgba(236, 236, 236, 0.993);
 }
 
 .top-wrapper {
@@ -19,6 +21,10 @@ padding: 248px 4px;
 text-align: center;
 margin-bottom: 80px;
 color: var(--primary-color);
+}
+
+.light-pink {
+color: var(--third-color);
 }
 
 h1 {
@@ -55,15 +61,14 @@ background-color: var(--link-bg-color);
 padding: 18px 50px;   
 font-size: 20px;
 font-family: var(--default-font-family);
-color: rgb(253, 138, 207);
+color: var(--primary-color);
 text-decoration: none;
 text-transform: all 200mm ease-in-out;
 }
 
 .get-started:hover {
-padding: 22px 58px;  
-font-size: 20px;
 color: rgb(253, 138, 207);
+background-color: rgba(252, 252, 252, 0.192);
 }
 
 #projects {
@@ -75,8 +80,7 @@ color: var(--primary-color);
 
 img {
 padding: 5px 0px;
-border-radius: 10px;
-text-transform: var(--transform);
+border-radius: 10px;;
 }
 
 .project-description {
@@ -240,23 +244,23 @@ color: var(--secondary-color);
 nav a {
 padding-left: 22px;
 }
-
 .top-wrapper {
     padding: 80px 20px;
 }
 .project-description h3, .content h1, h1 {
-    font-size: 54px;
+    font-size: 50px;
     line-height: 1,5;
 }
-h3 {
-    font-size: 20px;
+.contact-section h3, #projects, h3 {
+font-size: 20px;
+}
+
+.contact-section a, p {
+font-size: 15px;
 }
 .project-description {
     padding: 0;
     text-align: center;
-}
-#projects {
-    font-size: 20px;
 }
 .launch-link {
 display: flex;
