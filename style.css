@@ -238,8 +238,9 @@ color: var(--secondary-color);
 
 @media (max-width: 900px) {
 nav a {
-padding-left: 8px;
+padding-left: 22px;
 }
+
 .top-wrapper {
     padding: 80px 20px;
 }
