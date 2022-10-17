@@ -62,7 +62,7 @@ background-color: var(--link-bg-color);
 padding: 18px 50px;   
 font-size: 20px;
 font-family: var(--default-font-family);
-color: var(--primary-color);
+color: var(--third-color);
 text-decoration: none;
 text-transform: all 200mm ease-in-out;
 }
@@ -126,7 +126,7 @@ background: linear-gradient(180deg, rgba(10, 37, 44, 0.932) 75%, rgba(5, 20, 26,
 border-radius: 10px;
 padding: 10px 15px 20px;
 margin: 10px 0px 0px;
-color: var(--primary-color);
+color: var(--third-color);
 }
 
 .contact-section h3 {
@@ -137,7 +137,7 @@ line-height: 1;
 }
 
 .contact-section p {
-color: var(--primary-color);
+color: var(--third-color);
 }
 
 .social {
