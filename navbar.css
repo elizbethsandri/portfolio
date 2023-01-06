@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair Display:wght@500;600;700&family=Source+Code+Pro:wght@400;500&family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: rgba(206, 122, 172);
+    --secondary-color: rgba(10, 37, 44, 0.932);
+    --third-color: rgba(245, 160, 211, 0.795);
+    --white-tone: rgb(245, 245, 245); 
+    --transform: all 200mm ease-in-out;
+    --link-bg-color: rgba(250, 250, 250, 0.082);
+    --heading-font-family: 'Playfair Display';
+    --default-font-family: 'Poppins';
+}
